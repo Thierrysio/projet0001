@@ -8,7 +8,7 @@ namespace projet0001
         {
             InitializeComponent();
 
-            MainPage = new VueProduit();
+            MainPage = new VueClient();
         }
     }
 }
