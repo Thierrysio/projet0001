@@ -18,5 +18,13 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
+        <Label
+            x:Name="L1">
+            
+        </Label>
+        <Image
+            x:Name="I1"
+            ></Image>
+        <Button Clicked="Button_Clicked"></Button>
     </VerticalStackLayout>
 </ContentPage>
