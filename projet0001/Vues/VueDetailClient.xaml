@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projet0001.Vues.VueDetailClient"
+             Title="VueDetailClient">
+    <VerticalStackLayout>
+        <Label 
+            x:Name="L1"
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image
+            x:Name="I1"
+            HeightRequest="50"
+            WidthRequest="50"></Image>
+    </VerticalStackLayout>
+</ContentPage>

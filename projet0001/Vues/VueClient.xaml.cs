@@ -24,8 +24,7 @@ public partial class VueClient : ContentPage
         var selectedClient = e.CurrentSelection.FirstOrDefault() as Client;
         if (selectedClient != null)
         {
-            I1.Source = selectedClient.Url;
-            L1.Text = "pseudo " + selectedClient.Pseudo;
+            NavigateToVueDetail(selectedClient);
         }
     }
 
@@ -37,5 +36,9 @@ public partial class VueClient : ContentPage
     private async void NavigateToVueProduit()
     {
         await Navigation.PushAsync(new VueProduit());
+    }
+    private async void NavigateToVueDetail(Client leClient)
+    {
+        await Navigation.PushAsync(new VueDetailClient(leClient));
     }
 }
