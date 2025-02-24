@@ -4,7 +4,7 @@
              x:Class="projet0001.Vues.VueClient"
              Title="VueClient">
     <VerticalStackLayout>
-        <CollectionView ItemsSource="{Binding Clients}" SelectionChanged="CollectionView_SelectionChanged">
+        <CollectionView ItemsSource="{Binding Clients}" SelectionChanged="CollectionView_SelectionChanged" SelectionMode="Single">
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Orientation="Vertical" Span="2"/>
             </CollectionView.ItemsLayout>
