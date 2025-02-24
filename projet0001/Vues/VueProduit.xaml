@@ -18,6 +18,20 @@
             <Button Clicked="Button_Clicked"
                
                 ></Button>
-    </VerticalStackLayout>
+            <Label
+                Text="Nombre 1"></Label>
+            <Entry
+                x:Name="N1"></Entry>
+            <Label
+    Text="Nombre 2"></Label>
+            <Entry
+    x:Name="N2"></Entry>
+            <Button
+                Clicked="Button_Clicked_1">valider les valeurs</Button>
+            <Label
+                x:Name="LResultat"
+    Text="attente de resultat">
+            </Label>
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

@@ -17,4 +17,14 @@ public partial class VueProduit : ContentPage
 		string res = E1.Text;
 		l1.Text = res;
     }
+
+    private void Button_Clicked_1(object sender, EventArgs e)
+    {
+        string nb1 = N1.Text;
+        string nb2 = N2.Text;
+        int nbre1 = int.Parse(nb1);
+        int nbre2 = int.Parse(nb2);
+        int resultat = nbre1 + nbre2;
+        LResultat.Text = resultat.ToString();
+    }
 }
